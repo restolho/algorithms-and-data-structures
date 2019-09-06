@@ -41,7 +41,7 @@ You should know that the Big O notation gives you the rate of increase of a give
 
 Another thing you should pay attention is that the Big O notation shows the worst possible case. Using the previous example, if I had picked the number 1 the simple search would have found the number right way O(1). However, we must show the worst possible case meaning O(n). Given this it's easily seen that a O(n) algorithm can actually run faster than O(1). Big O is meant to describe the rate of increase, for that reason we should drop constants. So an algorithm that runs in O(2n) is actually O(n). In addition to drop constants, you should also drop Non-Dominant terms. Example:
 
-- O(n^2 + n) should be O(n)
+- O(n^2 + n) should be O(n^2)
 - O(n + log n) should be O(n)
 
 #### Common Big O run timea

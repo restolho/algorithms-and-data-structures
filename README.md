@@ -33,7 +33,7 @@ I select the number 100. The algorithm starts searching on the arrays first posi
 
 What if we you Binary Search? (link to binary search) Instead of taking 100ms, it would only take us 7.
 
-So can we assume that a simple search is roughly 15 times (7*15 = 105ms)lower than Binary search?
+So can we assume that a simple search is roughly 15 times (7*15 = 105ms) slower than Binary search?
 
 The answer is NO! Imagine that instead of an array with 100 sorted elements we would get an array with a.000.000.000. This would take the simple search algorithm 11 days to search but only 32ms using Binary Search.
 
